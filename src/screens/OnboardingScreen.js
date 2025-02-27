@@ -41,17 +41,18 @@ const OnboardingScreen = () => {
 
   return (
     <View
-      style={{ justifyContent: 'center', flex: 1, backgroundColor: '#212121', alignItems: 'center', height: dimensions.height, backgroundColor: '#022451' }}
+      style={{ justifyContent: 'center', flex: 1, alignItems: 'center', height: dimensions.height, backgroundColor: '#0a1a40' }}
     >
       <Image
         resizeMode="contain"
-        source={require('../assets/images/splash4x.png')}
+        source={require('../assets/images/SplashScreen.png')}
         style={{
-          marginBottom: 15.8,
-          height: dimensions.width * 0.88,
-          width: dimensions.width * 0.88,
+          position: 'absolute',
+            width: '100%',
+            height: '100%',
+            flex:1
         }}
-        
+
       />
 
       <View
@@ -60,7 +61,6 @@ const OnboardingScreen = () => {
           position: 'absolute',
           alignItems: 'center',
           justifyContent: 'center',
-
           backgroundColor: '#0C6EE6',
           paddingVertical: dimensions.height * 0.008,
           width: dimensions.width * 0.88,
@@ -68,7 +68,7 @@ const OnboardingScreen = () => {
           flexDirection: 'row',
           flex: 1,
           justifyContent: 'space-between',
-          
+
         }}
       >
         <Animated.View

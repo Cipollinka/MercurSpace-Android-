@@ -79,7 +79,7 @@ android {
 
     namespace "com.mercurspace"
     defaultConfig {
-        applicationId "com.spacemerkur.app"
+        applicationId "com.merckur.space.app"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
